@@ -24,7 +24,7 @@ F.tempête.tempêtes.VITESSE=5|DEGAT_VENT=10.AIR..+40
 M.démon.démons.DEGAT_FEU=15|FORCE=5.DEMONIAQUE..+80
 M.ange.anges.DEGAT_DIVIN=5|SAGESSE=10.DIVIN..+100
 M.caca.cacas.CHARISME=-10.CACA.Shlingue.-60
-M.liberté.libertés..CONCEPT.Ne peut être immobilisé.+35
+F.liberté.libertés..CONCEPT.Ne peut être immobilisé.+35
 M.mort.morts.DEGAT_TENEBRE=30.MORT|TENEBRES..+30
 M.zombie.zombies.DEGAT_TENEBRE=5|POISON=5|INTELLIGENCE=-15.MORT|TENEBRES..+25
 M.pet.pets.POISON=2|DEGAT_AIR=5.CACA|AIR..-30

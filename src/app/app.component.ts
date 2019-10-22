@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   tabs: Tab[] = [
-    'FAKE', 'LOOT', 'GRAMMAR'
+    'MARKOV', 'LOOT', 'GRAMMAR'
   ];
-  currentTab: Tab = 'FAKE';
+  currentTab: Tab = 'MARKOV';
 
 }
 
-export type Tab = 'FAKE' | 'LOOT' | 'GRAMMAR';
+export type Tab = 'MARKOV' | 'LOOT' | 'GRAMMAR';

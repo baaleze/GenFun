@@ -65,7 +65,7 @@ export class Price {
                     }
                 }
             });
-            return res;
+            return Math.max(0, res);
         } else {
             return this.computeOp(cumul);
         }

@@ -5,7 +5,7 @@
     </div>
     <div *ngFor="let i of items" [@appear] class="item">
         <div *ngIf="i.uniqueName" class="unique">{{i.uniqueName}}</div>
-        <div class="name">{{ i.name }} <span class="price">{{i.price.compute() | number: '1.0-2'}} gold</span></div>
+        <div class="name">{{ i.name }} <span class="price">{{i.price.compute() | number: '1.0-2'}} or</span></div>
         <div>
             <span class="stat" *ngFor="let stat of i.stats | keyvalue">{{i.getStatString(stat.key)}}</span>
         </div>
