@@ -1,0 +1,6 @@
+<a (click)="generateItems(5)">GENERATE</a>
+
+<div *ngFor="let i of items">
+    <h1 *ngIf="i.uniqueName">{{i.uniqueName}}</h1>
+    {{ i.name }}
+</div>
