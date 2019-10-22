@@ -3,21 +3,21 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FakewordsComponent } from './fakewords/fakewords.component';
 import { LootComponent } from './loot/loot.component';
+import { GrammarComponent } from './grammar/grammar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FakewordsComponent,
-    LootComponent
+    LootComponent,
+    GrammarComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule,
     HttpClientModule
   ],
   providers: [],

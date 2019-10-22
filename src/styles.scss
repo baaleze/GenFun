@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background-color: #111;
+    color: white;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+select {
+    color: white;
+    background-color: #111;
+    border-bottom: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.btn {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 25px;
+}

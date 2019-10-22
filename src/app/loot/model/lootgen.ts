@@ -106,7 +106,7 @@ export class LootGen {
     }
 
     private loadUniqueNames(names: string[]): void {
-        this.markov = new MarkovCharGenerator(3, '$', 12);
+        this.markov = new MarkovCharGenerator(2, '$', 12);
         this.markov.loadWords(names);
     }
 

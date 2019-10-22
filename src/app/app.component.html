@@ -1,1 +1,9 @@
-<router-outlet></router-outlet>
+
+    <ul>
+        <li *ngFor="let tab of tabs"><a  (click)="currentTab = tab">{{tab}}</a></li>
+    </ul>
+<div class="content">
+<app-fakewords *ngIf="currentTab === 'FAKE'"></app-fakewords>
+<app-loot *ngIf="currentTab === 'LOOT'"></app-loot>
+<app-grammar *ngIf="currentTab === 'GRAMMAR'"></app-grammar>
+</div>

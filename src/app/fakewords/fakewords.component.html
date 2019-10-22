@@ -1,5 +1,9 @@
 <select [(ngModel)]="s" (change)="updateGenSetting()">
     <option [value]="setting" *ngFor="let setting of settingList">{{setting}}</option>
 </select>
-<a (click)="generate(10)">GENERATE</a>
-<p *ngFor="let w of words">{{w}}</p>
+<div class="generation">
+    <div class="btn-container">
+    <a (click)="generate(10)" class="btn">GENERATE</a>
+</div>
+    <p *ngFor="let w of words">{{w}}</p>
+</div>

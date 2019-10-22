@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'gen-web';
+  tabs: Tab[] = [
+    'FAKE', 'LOOT', 'GRAMMAR'
+  ];
+  currentTab: Tab = 'FAKE';
+
 }
+
+export type Tab = 'FAKE' | 'LOOT' | 'GRAMMAR';
