@@ -1,11 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { MarkovCharGenerator } from '../markov/markovgenerator';
 import { HttpClient } from '@angular/common/http';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-fakewords',
   templateUrl: './fakewords.component.html',
-  styleUrls: ['./fakewords.component.scss']
+  styleUrls: ['./fakewords.component.scss'],
+  animations: [
+    trigger('appear', [
+      transition(':enter', [
+        style({opacity: 0}),
+        animate('1s')
+      ])
+    ])
+  ]
 })
 export class FakewordsComponent implements OnInit {
 

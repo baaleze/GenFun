@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FakewordsComponent } from './fakewords/fakewords.component';
 import { LootComponent } from './loot/loot.component';
 import { GrammarComponent } from './grammar/grammar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { GrammarComponent } from './grammar/grammar.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpClientModule
   ],

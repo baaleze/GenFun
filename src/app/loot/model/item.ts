@@ -1,5 +1,4 @@
 import { Price } from './price';
-import { LootGen } from './lootgen';
 
 export class Item {
 
@@ -31,6 +30,15 @@ export class Item {
     public addPower(power: string) {
         if (power !== undefined && power.trim() !== '' && this.powers.indexOf(power) === -1) {
             this.powers.push(power);
+        }
+    }
+
+    public getStatString(statKey: string): string {
+        const value = this.stats.get(statKey);
+        if (statKey[statKey.length - 1] === '%') {
+            return statKey.substring(0, statKey.length - 1).replace('_', ' ') + (value < 0 ? ' ' : ' +') + value + '%'
+        } else {
+            return `${statKey.replace('_', ' ')} ${value < 0 ? '' : '+'} ${value}`;
         }
     }
 }

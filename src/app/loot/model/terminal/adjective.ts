@@ -37,10 +37,10 @@ export class Adjective extends Terminal {
 
     constructor(
         public goesBefore: boolean,
-        public feminineSingular: string,
-        public femininePlural: string,
         public masculineSingular: string,
         public masculinePlural: string,
+        public feminineSingular: string,
+        public femininePlural: string,
         private mod: Modifier
     ) {
         super();

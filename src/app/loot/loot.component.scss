@@ -1,0 +1,50 @@
+.generation {
+    text-align: center;
+    height: calc(100% - 161px);
+    padding: 60px;
+    font-size: 25px;
+
+    .btn-container {
+        margin-bottom: 50px;
+    }
+
+    .stat {
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 0.5px solid white;
+    }
+
+    .name, .unique {
+        font-weight: bold;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .power {
+        font-style: italic;
+    }
+
+    .tag {
+        color: #aaa;
+    }
+
+    .unique {
+        font-size: 30px;
+        color: magenta;
+    }
+
+    .price {
+        color: goldenrod;
+    }
+
+    .item {
+        height: 130px;
+        float: left;
+        width: 49%;
+        font-size: 15px;
+        padding: 10px 0px;
+        border: 1px solid #555;
+    }
+}

@@ -29,7 +29,7 @@ export class Price {
         return p;
     }
 
-    public computeOp(cumul: number): number {
+    public computeOp(cumul = 0): number {
         switch (this.operation) {
             case '+':
                 return cumul + this.value;
@@ -44,7 +44,7 @@ export class Price {
         }
     }
 
-    public compute(cumul: number): number {
+    public compute(cumul = 0): number {
         if (this.subPrices) {
             let res = cumul;
             // additions first
