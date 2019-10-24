@@ -18,15 +18,15 @@ declare const RiGrammar: any;
 })
 export class GrammarComponent implements OnInit {
 
-  grammars: string[] = [ 'FPS'];
-  selectedGrammar: string = 'FPS';
+  grammars: string[] = [ 'FPS Games'];
+  selectedGrammar = 'FPS Games';
   phrases: string[] = [];
   grammar: any;
   key = ["","C","CC","CCC","CD","D","DC","DCC","DCCC","CM",
                    "","X","XX","XXX","XL","L","LX","LXX","LXXX","XC",
                    "","I","II","III","IV","V","VI","VII","VIII","IX"];
   grammarDefinitions = {
-    'FPS': {
+    'FPS Games': {
       '<start>': [ '<first> <next>' ],
       '<first>': [ '<main>', '<main>', '<main>', '<main>', '<from> <main>' ],
       '<from>': [ '%Tom Clancy\'s%%', '', '', '', '', '', '', '', ''],

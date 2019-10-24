@@ -1,10 +1,11 @@
-<select [(ngModel)]="selectedGrammar" (change)="changeGrammar()">
-    <option [value]="g" *ngFor="let g of grammars">{{g}}</option>
-</select>
+
 <div class="generation">
     <div class="btn-container">
-    <a (click)="generate(10)" class="btn">GENERATE</a>
-</div>
-<div *ngFor="let p of phrases" [@appear] [innerHTML]="p" class="line"></div>
+        <a (click)="generate(10)" class="btn">GENERATE</a>
+        <select [(ngModel)]="selectedGrammar" (change)="changeGrammar()">
+            <option [value]="g" *ngFor="let g of grammars">{{g}}</option>
+        </select>
+    </div>
+    string<div *ngFor="let p of phrases" [@appear] [innerHTML]="p" class="line"></div>
 </div>
 
