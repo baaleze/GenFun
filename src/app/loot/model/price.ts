@@ -110,7 +110,7 @@ export class Price {
     private spaces(tabs: number) {
         let res = '';
         for (let i = 0; i < tabs; i++) {
-            res += '  ';
+            res += '&nbsp;&nbsp;';
         }
         return res;
     }
