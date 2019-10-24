@@ -19,14 +19,16 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 export class FakewordsComponent implements OnInit {
 
   public settings = {
+    'french cities': { file: 'villes_france.csv', factor: 4, end: '$', maxLenght: 20 },
     'french words': { file: 'french.txt', factor: 4, end: '$', maxLenght: 12 },
+    'french names': { file: 'prenoms.txt', factor: 3, end: '$', maxLenght: 8},
     'english words': { file: 'english.txt', factor: 4, end: '$', maxLenght: 10 },
-    'french cities': { file: 'villes_france.csv', factor: 4, end: '$', maxLenght: 20 }
   };
   public settingList = [
+    'french cities',
     'french words',
-    'english words',
-    'french cities'
+    'french names',
+    'english words'
   ];
   public s: string;
 
