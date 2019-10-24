@@ -38,7 +38,7 @@ export class Noun extends Terminal {
         // power
         noun.powers = split[5].split('\|');
 
-        noun.price = Price.parse(split[6]);
+        noun.price = Price.parse(split[6], split[1]);
 
         return noun;
     }

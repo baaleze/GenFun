@@ -51,7 +51,7 @@ export class QualificatifGroup implements Token {
 
         const n = actualNoun.gen(item, masculine, plural);
 
-        const pref = this.pref != undefined ? this.pref.gen(item, masculine, plural, vowel, p) : '';
+        const pref = this.pref !== undefined ? this.pref.gen(item, masculine, plural, vowel, p) : '';
 
         const adjAftStr = this.map(item, masculine, plural, adjAft).join(' ');
         const adjBefStr = this.map(item, masculine, plural, adjBef).join(' ');

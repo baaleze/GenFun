@@ -3,10 +3,11 @@
 export class Price {
 
     subPrices: Price[] = [];
+    public source: string;
     public value: number;
     public operation: Operation;
 
-    public static parse(s: string): Price {
+    public static parse(s: string, source: string): Price {
         let op: Operation;
         switch (s[0]) {
             case '+':
@@ -26,6 +27,7 @@ export class Price {
         const p = new Price();
         p.operation = op;
         p.value = Number(s.substring(1));
+        p.source = source;
         return p;
     }
 
@@ -77,6 +79,40 @@ export class Price {
 
     public addPrice(p: Price) {
         this.subPrices.push(p);
+    }
+
+    public detail(tab = 0): string {
+        let res = '';
+        // additions first
+        this.subPrices.forEach(p => {
+            if (p.operation) {
+                if (p.operation !== '*' && p.operation !== '/') {
+                    res += `${this.spaces(tab)}[${p.source}] ${p.operation}${p.value}<br>`;
+                }
+            } else {
+                res += p.detail(tab + 1);
+            }
+        });
+        // multiplications
+        this.subPrices.forEach(p => {
+            if (p.operation) {
+                if (p.operation === '*') {
+                    res += `${this.spaces(tab)}[${p.source}] x${p.value}<br>`;
+                }
+                if (p.operation === '/') {
+                    res += `${this.spaces(tab)}[${p.source}] x${(1 / p.value).toFixed(2)}<br>`;
+                }
+            }
+        });
+        return res;
+    }
+
+    private spaces(tabs: number) {
+        let res = '';
+        for (let i = 0; i < tabs; i++) {
+            res += '  ';
+        }
+        return res;
     }
 
 }

@@ -28,7 +28,7 @@ export class Material extends Terminal {
         // power
         mat.powers = split[3].split('\|');
 
-        mat.price = Price.parse(split[4]);
+        mat.price = Price.parse(split[4], split[0]);
         return mat;
     }
 

@@ -34,7 +34,7 @@ export class Qualificatif extends Terminal {
         // power
         qual.powers = split[6].split('\|');
 
-        qual.price = Price.parse(split[7]);
+        qual.price = Price.parse(split[7], split[0]);
         return qual;
     }
 

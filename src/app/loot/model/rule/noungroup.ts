@@ -55,8 +55,8 @@ export class NounGroup implements Token {
 
         const n = actualNoun.gen(item, masculine, plural);
 
-        const pref = this.prefix != undefined ? this.prefix.gen(item, masculine, plural, vowel, p) : '';
-        const suff = this.suffix != undefined ? this.suffix.gen(item, masculine, plural, vowel, p) : '';
+        const pref = this.prefix !== undefined ? this.prefix.gen(item, masculine, plural, vowel, p) : '';
+        const suff = this.suffix !== undefined ? this.suffix.gen(item, masculine, plural, vowel, p) : '';
 
         const adjAftStr = this.map(item, masculine, plural, adjAft).join(' ');
         const adjBefStr = this.map(item, masculine, plural, adjBef).join(' ');

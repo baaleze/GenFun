@@ -30,7 +30,7 @@ export class Adjective extends Terminal {
         adj.powers = split[7].split('\|');
 
         // price
-        adj.price = Price.parse(split[8]);
+        adj.price = Price.parse(split[8], split[1]);
 
         return adj;
     }
