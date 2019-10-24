@@ -26,3 +26,4 @@ M.peignoir.peignoirs.DEFENSE=1|RESISTANCE_EAU%=100.EAU|HABIT..+40
 F.baguette.baguettes.INTELLIGENCE=5.UNE_MAIN..+30
 M.fléau.fléaux.DEGAT=10.ARME|UNE_MAIN|MELEE.5% de chances d'étourdir.+15
 M.coupe-ongles.coupes-ongles.DEGAT=1|CHARISME=5.OUTIL|MELEE|UNE_MAIN..+5
+M.fouet.fouets.DEGAT=5.UNE_MAIN|A_DISTANCE|SEXY..+10

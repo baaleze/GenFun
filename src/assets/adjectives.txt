@@ -28,5 +28,6 @@ A.brioché.briochés.briochée.briochées.CHARISME=2|DEGAT=-15.ALIMENT.Gourmand.
 A.féroce.féroces.féroce.féroces.FORCE=3..Inflige saignement.+20
 A.apathique.apathiques.apathique.apathiques.DEXTERITE=-15|FORCE=-5|PRIX%=-50.VIEUX../2
 A.splendide.splendides.splendide.splendides.CHARISME=20|PRIX%=100.PRECIEUX..*2
-B.délicieux.délicieuse.délicieux.délicieuses...Délicieux.+15
+B.délicieux.délicieux.délicieuse.délicieuses...Délicieux.+15
 A.volant.volants.volante.volantes.DEXTERITE=5.AIR..+20
+A.bordé de nouilles.bordés de nouilles.bordée de nouilles.bordées de nouilles.CHANCE=20|PRIX=%100...*2

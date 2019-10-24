@@ -31,3 +31,10 @@ M.pet.pets.POISON=2|DEGAT_AIR=5.CACA|AIR..-30
 F.carotte.carottes.SAGESSE=2.ALIMENT.Rend aimable.+5
 F.patate.patates.ENDURANCE=5.ALIMENT..+10
 M.T-Rex.T-Rexs.FORCE=15.DINOSAURE..+70
+F.fesse.fesses.ENDURANCE=3|DEFENSE=3|CHARISME=5.SEXY..+20
+M.cul.culs.ENDURANCE=3|DEFENSE=3|CHARISME=5.SEXY..+20
+F.bite.bites.CHARISME=5|DEGAT=5.SEXY..+10
+M.sexe.sexe.CHARISME=5|DEGAT=5.SEXY..+10
+F.main.mains.DEXTERITE=6...+15
+M.crumble.crumbles.ENDURANCE=2|DEFENSE=-10.ALIMENT..+5
+F.plume.plumes.DEXTERITE=3.AIR..+10

@@ -17,3 +17,5 @@ en terre cuite.RESISTANCE_TERRE%=30.TERRE.50% de chances de casser.+5
 en polystirène.DEXTERITE=5|PRIX%=-50.AIR../2
 en fibres de carbone.DEXTERITE=15|DEFENSE=15.TERRE..+100
 en or.CHARISME=10.PRECIEUX..+70
+en briques.DEFENSE=10|RESISTANCE_TERRE%=20.TERRE..+20
+en feu.DEGAT_FEU=10.FEU.5% de chances d'infliger brûlure.+30
