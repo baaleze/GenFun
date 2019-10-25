@@ -3,7 +3,7 @@ B.petit.petits.petite.petites.DEGAT=-5...-5
 A.géant.géants.géante.géantes.DEGAT=10..20% de chance d'assomer.+25
 A.mou.mous.molle.molles.DEGAT=-5..Ne peux rien trancher.-10
 A.putride.putrides.putride.putrides.POISON=10.POISON..+15
-A.sexy.sexy.sexy.sexy.PRIX%=100.SEXY..*2
+A.sexy.sexys.sexy.sexys.PRIX%=100.SEXY..*2
 B.vilain.vilains.vilaine.vilaines.PRIX%=-50.MOCHE../2
 A.moche.moches.moche.moches.PRIX%=-30.MOCHE../3
 A.œcuménique.œcuméniques.œcuménique.œcuméniques...Utilisable par tout le monde.+20

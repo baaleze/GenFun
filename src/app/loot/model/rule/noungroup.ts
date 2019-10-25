@@ -40,14 +40,19 @@ export class NounGroup implements Token {
         const adjBef: Adjective[] = [];
         const adjAft: Adjective[] = [];
         let a: Adjective;
-        for (let i = 0; i < this.nbAdj; i++) {
+        let i = this.nbAdj;
+        while (i > 0) {
             a = LootGen.generators.get(TerminalType.Adjective).gen<Adjective>();
-            if (a.goesBefore) {
-                adjBef.push(a);
-            } else {
-                adjAft.push(a);
-            }
-            p.addPrice(a.price);
+            // check if already present
+            if (!adjAft.includes(a) && !adjBef.includes(a)) {
+                if (a.goesBefore) {
+                    adjBef.push(a);
+                } else {
+                    adjAft.push(a);
+                }
+                p.addPrice(a.price);
+                i--;
+            }// else ignore adj and generate another one
         }
         if (adjBef.length > 0) {
             vowel = adjBef[0].beginsWithVowel();

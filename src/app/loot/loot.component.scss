@@ -39,10 +39,19 @@
         color: goldenrod;
     }
 
+    @media (min-width: 750px) {
+        .item {
+            width: 49%;
+            height: 130px;
+        }
+    }
+    @media (max-width: 750px) {
+        .item {
+            width: 100%;
+        }
+    }
     .item {
-        height: 130px;
         float: left;
-        width: 49%;
         font-size: 15px;
         padding: 10px 0px;
         border: 1px solid #555;
@@ -63,7 +72,8 @@
         padding: 5px 0;
         border-radius: 6px;
         font-size: 15px !important;
-       
+        bottom: 25px;
+        right: 0px;
         /* Position the tooltip text - see examples below! */
         position: absolute;
         z-index: 1;

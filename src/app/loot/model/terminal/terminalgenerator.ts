@@ -1,5 +1,4 @@
 import { Terminal } from './terminal';
-import { TerminalType } from './terminaltype';
 
 export class TerminalGenerator {
 

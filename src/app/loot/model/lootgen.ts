@@ -40,7 +40,10 @@ export class LootGen {
                 LootGen.getAllLines('material.txt', http),
                 LootGen.getAllLines('names.txt', http)
             ).pipe(
-                map(([gear, noun, adj, qualif, mod, mat, name]) => new LootGen(gear, noun, adj, qualif, mod, mat, name))
+                map(([gear, noun, adj, qualif, mod, mat, name]) => {
+                    LootGen.instance = new LootGen(gear, noun, adj, qualif, mod, mat, name);
+                    return LootGen.instance;
+                })
             );
         } else {
             return of(LootGen.instance);
