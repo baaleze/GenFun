@@ -33,8 +33,11 @@ export class NounGroup implements Token {
 
         // get gender and plurality
         const masculine = actualNoun.masculine;
-        const plural = this.plural !== undefined ? this.plural : Math.random() > 0.5;
+        let plural = this.plural !== undefined ? this.plural : Math.random() > 0.5;
         let vowel = actualNoun.beginsWithVowel();
+        if (actualNoun.plural === '') {
+            plural = false;
+        }
 
         // generate strings
         const adjBef: Adjective[] = [];

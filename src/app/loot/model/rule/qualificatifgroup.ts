@@ -26,7 +26,7 @@ export class QualificatifGroup implements Token {
 
         // get gender and plurality
         const masculine = actualNoun.masculine;
-        const plural = Math.random() > 0.5;
+        const plural = actualNoun.plural === '' ? false : Math.random() > 0.5;
         let vowel = StringToken.vowels.indexOf(actualNoun.get(plural).substring(0, 1)) !== -1;
 
         // generate strings

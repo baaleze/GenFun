@@ -54,7 +54,7 @@ export class Noun extends Terminal {
 
 
     public beginsWithVowel(): boolean {
-        return StringToken.vowels.indexOf(this.plural.substring(0, 1)) !== -1;
+        return StringToken.vowels.indexOf(this.singular.substring(0, 1)) !== -1;
     }
 
 }
