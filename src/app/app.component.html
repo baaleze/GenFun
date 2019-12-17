@@ -4,6 +4,7 @@
     </ul>
 <div class="content">
 <app-fakewords *ngIf="currentTab === 'MARKOV'"></app-fakewords>
+<app-notabot *ngIf="currentTab === 'BOT'"></app-notabot>
 <app-loot *ngIf="currentTab === 'LOOT'"></app-loot>
 <app-grammar *ngIf="currentTab === 'GRAMMAR'"></app-grammar>
 </div>

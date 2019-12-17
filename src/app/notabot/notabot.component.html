@@ -1,0 +1,7 @@
+
+<div class="generation">
+    <div class="btn-container">
+    <a (click)="generate(10)" class="btn">GENERATE</a>
+</div>
+    <p *ngFor="let w of words" [@appear] >{{w}}</p>
+</div>

@@ -8,13 +8,15 @@ import { FakewordsComponent } from './fakewords/fakewords.component';
 import { LootComponent } from './loot/loot.component';
 import { GrammarComponent } from './grammar/grammar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotabotComponent } from './notabot/notabot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FakewordsComponent,
     LootComponent,
-    GrammarComponent
+    GrammarComponent,
+    NotabotComponent
   ],
   imports: [
     BrowserModule,
