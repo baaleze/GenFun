@@ -27,3 +27,14 @@ F.baguette.baguettes.INTELLIGENCE=5.UNE_MAIN..+30
 M.fléau.fléaux.DEGAT=10.ARME|UNE_MAIN|MELEE.5% de chances d'étourdir.+15
 M.coupe-ongles.coupes-ongles.DEGAT=1|CHARISME=5.OUTIL|MELEE|UNE_MAIN..+5
 M.fouet.fouets.DEGAT=5.UNE_MAIN|A_DISTANCE|SEXY..+10
+F.cimballe.cimballes..DEUX_MAINS|INSTRUMENT..+5
+F.maracas.maracas..DEUX_MAINS|INSTRUMENT..+10
+M.piano.pianos.FORCE=5.GROS|INSTRUMENT..+100
+M.cure-dent.cure-dents.SAGESSE=2.OUTIL..+2
+F.contrebasse.contrebasses.BASSES%=100.INSTRUMENT|GROS..+50
+F.faux.faux..DEUX_MAINS|MELEE.Inflige saignement.+30
+M.stiletto.stilettos.DEXTERITE=5.UNE_MAIN|MELEE..+30
+F.fourchette.fourchettes.DEGAT=3.UNE_MAIN|MELEE..+5
+F.cuillère.cuillères.DEGAT=2.UNE_MAIN|MELEE..+2
+M.katana.katanas.DEGAT=30.UNE_MAIN|MELEE..+50
+M.gant.gants.DEFENSE=5.ARMURE..+10

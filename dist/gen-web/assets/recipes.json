@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Rochers coco",
+        "prepTime": "10 minutes",
+        "cuisson": "10 minutes",
+        "servings": "4",
+        "ingredients": [
+            { "name": "farine", "qty": "1 cuillère a soupe rase de farine" },
+            { "name": "noix de coco rapée", "qty": "100g de noix de coco rapée" },
+            { "name": "sucre", "qty": "100g de sucre" },
+            { "name": "oeuf", "qty": "1 oeuf battu" }
+        ],
+        "steps": [
+            "Préchauffer le four à 200°C",
+            "Mélanger le sucre, la farine et la poudre de noix de coco rapée.",
+            "Battre un peu l'oeuf puis le mélanger au reste jusqu'à avoir une pâte homogène.",
+            "Mettre la pâte en petits rochers sur une plaque et enfourner 10 minutes à 200°C.",
+            "C'est prêt!"
+        ],
+        "tags": [ "dessert", "rapide", "four", "sucré" ]
+    },
+    {
+        "title": "Rochers coco 2",
+        "prepTime": "10 minutes",
+        "cuisson": "10 minutes",
+        "servings": "4",
+        "ingredients": [
+            { "name": "farine", "qty": "1 cuillère a soupe rase de farine" },
+            { "name": "noix de coco rapée", "qty": "100g de noix de coco rapée" },
+            { "name": "sucre", "qty": "100g de sucre" },
+            { "name": "oeuf", "qty": "1 oeuf battu" }
+        ],
+        "steps": [
+            "Préchauffer le four à 200°C",
+            "Mélanger le sucre, la farine et la poudre de noix de coco rapée.",
+            "Battre un peu l'oeuf puis le mélanger au reste jusqu'à avoir une pâte homogène.",
+            "Mettre la pâte en petits rochers sur une plaque et enfourner 10 minutes à 200°C.",
+            "C'est prêt!"
+        ],
+        "tags": [ "dessert", "rapide", "four", "sucré" ]
+    }
+]

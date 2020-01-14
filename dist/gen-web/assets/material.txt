@@ -19,3 +19,5 @@ en fibres de carbone.DEXTERITE=15|DEFENSE=15.TERRE..+100
 en or.CHARISME=10.PRECIEUX..+70
 en briques.DEFENSE=10|RESISTANCE_TERRE%=20.TERRE..+20
 en feu.DEGAT_FEU=10.FEU.5% de chances d'infliger brûlure.+30
+en satin.CHARISME=5.TISSU|SEXY..+60
+en aluminium.RESISTANCE_FROID%=50.METAL..+30

@@ -34,3 +34,7 @@ M.cure-dent.cure-dents.SAGESSE=2.OUTIL..+2
 F.contrebasse.contrebasses.BASSES%=100.INSTRUMENT|GROS..+50
 F.faux.faux..DEUX_MAINS|MELEE.Inflige saignement.+30
 M.stiletto.stilettos.DEXTERITE=5.UNE_MAIN|MELEE..+30
+F.fourchette.fourchettes.DEGAT=3.UNE_MAIN|MELEE..+5
+F.cuillère.cuillères.DEGAT=2.UNE_MAIN|MELEE..+2
+M.katana.katanas.DEGAT=30.UNE_MAIN|MELEE..+50
+M.gant.gants.DEFENSE=5.ARMURE..+10
