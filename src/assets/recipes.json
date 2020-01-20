@@ -3,6 +3,7 @@
         "title": "Rochers coco",
         "prepTime": "10 minutes",
         "cuisson": "10 minutes",
+        "img": "rochers-coco.jpg",
         "servings": "4",
         "ingredients": [
             { "name": "farine", "qty": "1 cuillère a soupe rase de farine" },
@@ -23,6 +24,7 @@
         "title": "Rochers coco 2",
         "prepTime": "10 minutes",
         "cuisson": "10 minutes",
+        "img": "rochers-coco2.jpg",
         "servings": "4",
         "ingredients": [
             { "name": "farine", "qty": "1 cuillère a soupe rase de farine" },
