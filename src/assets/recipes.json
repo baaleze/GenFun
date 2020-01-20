@@ -21,24 +21,34 @@
         "tags": [ "dessert", "rapide", "four", "sucré" ]
     },
     {
-        "title": "Rochers coco 2",
-        "prepTime": "10 minutes",
-        "cuisson": "10 minutes",
-        "img": "rochers-coco2.jpg",
-        "servings": "4",
+        "title": "Bolognaise",
+        "prepTime": "30 minutes",
+        "cuisson": "1 heure 45 minutes",
+        "img": "bolo.jpg",
+        "servings": "6",
         "ingredients": [
-            { "name": "farine", "qty": "1 cuillère a soupe rase de farine" },
-            { "name": "noix de coco rapée", "qty": "100g de noix de coco rapée" },
-            { "name": "sucre", "qty": "100g de sucre" },
-            { "name": "oeuf", "qty": "1 oeuf battu" }
+            { "name": "boeuf haché", "qty": "600g de boeuf haché" },
+            { "name": "pancetta", "qty": "200g de pancetta" },
+            { "name": "purée de tomate", "qty": "400g de purée de tomate" },
+            { "name": "concentré de tomate", "qty": "2 càs de concentré de tomate" },
+            { "name": "carotte", "qty": "2 carottes" },
+            { "name": "céléri branche", "qty": "3 branches de céléri branche" },
+            { "name": "oignon blanc", "qty": "1 gros oignon blanc" },
+            { "name": "lait", "qty": "25cl de lait" },
+            { "name": "beurre", "qty": "80g de beurre" },
+            { "name": "bouillon de boeuf", "qty": "40cl de bouillon de boeuf" }
         ],
         "steps": [
-            "Préchauffer le four à 200°C",
-            "Mélanger le sucre, la farine et la poudre de noix de coco rapée.",
-            "Battre un peu l'oeuf puis le mélanger au reste jusqu'à avoir une pâte homogène.",
-            "Mettre la pâte en petits rochers sur une plaque et enfourner 10 minutes à 200°C.",
-            "C'est prêt!"
+            "Couper les carottes, céléri et oignon en petits morceaux. Préparer les autres ingrédients dans le doses requises.",
+            "Dans une grande poele ou marmitte, faire chauffer de l'huile d'olive.",
+            "Faire griller la pancetta pendant 2 minutes.",
+            "Verser les légumes et laisser suer pendant 5 minutes en remuant.",
+            "Ajouter le boeuf. Le faire colorer légèrement.",
+            "Ajouter le beurre en morceaux et le lait. Laisser réduire pendant 5 minutes.",
+            "Ajouter le bouillon de boeuf, le concentré de tomate et la purée de tomate.",
+            "Laisser mijoter sous un couvercle pendant 1h, puis retirer le couvercle et laisser mijoter encore 45 minutes.",
+            "Déguster avec des pâtes."
         ],
-        "tags": [ "dessert", "rapide", "four", "sucré" ]
+        "tags": [ "sauce", "plat", "italien", "pâtes", "long", "salé" ]
     }
 ]
