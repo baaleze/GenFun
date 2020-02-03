@@ -22,7 +22,7 @@
     },
     {
         "title": "Bolognaise",
-        "prepTime": "30 minutes",
+        "prepTime": "2 heures 15 minutes",
         "cuisson": "1 heure 45 minutes",
         "img": "bolo.jpg",
         "servings": "6",
@@ -35,7 +35,7 @@
             { "name": "céléri branche", "qty": "3 branches de céléri branche" },
             { "name": "oignon blanc", "qty": "1 gros oignon blanc" },
             { "name": "lait", "qty": "25cl de lait" },
-            { "name": "beurre", "qty": "80g de beurre" },
+            { "name": "beurre", "qty": "60g de beurre" },
             { "name": "bouillon de boeuf", "qty": "40cl de bouillon de boeuf" }
         ],
         "steps": [
@@ -50,5 +50,30 @@
             "Déguster avec des pâtes."
         ],
         "tags": [ "sauce", "plat", "italien", "pâtes", "long", "salé" ]
+    },
+    {
+        "title": "Poulet saté",
+        "prepTime": "1 heure 20 minutes",
+        "cuisson": "10 minutes",
+        "img": "poulet_sate.jpg",
+        "servings": "1",
+        "ingredients": [
+            { "name": "poulet", "qty": "1 filet de poulet" },
+            { "name": "basilic thaï", "qty": "une dizaine de feuilles de basilic thaï" },
+            { "name": "sauce soja", "qty": "3 càs de sauce soja" },
+            { "name": "mirin", "qty": "3 càs de mirin" },
+            { "name": "shiitake", "qty": "5 shiitakes" },
+            { "name": "gingembre", "qty": "10g de gingembre environ" }
+        ],
+        "steps": [
+            "Mettre la sauce soja, le mirin et un peu d'eau dans un saladier.",
+            "Mélanger le gingembre émincé et les feuilles de basilic thaï dans la sauce.",
+            "Y plonger le poulet coupé en morceau et laisser mariner 1h.",
+            "Couper les shiitake (en les ayant réhydratés auparavant si ils étaient secs) en lamelles.",
+            "Faire cuire les shiitakes dans une poele avec de l'huile de cuisson et un peu d'huile de sésame.",
+            "Après 5 minutes, rajouter le poulet et la marinade. Laisser cuir à feu moyen pendant 3 minutes.",
+            "Servir sur du riz. C'est prêt!"
+        ],
+        "tags": [ "marinade", "plat", "asiatique", "riz", "salé" ]
     }
 ]
